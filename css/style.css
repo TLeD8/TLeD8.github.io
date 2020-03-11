@@ -21,6 +21,7 @@ ion-icon {
   background-color: #fff;
   margin-bottom: 0;
   padding-bottom: 0;
+  padding: .5em;
 }
 .badge{
   font-size: 100%;
