@@ -9,7 +9,6 @@
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
-  margin: .5em;
   /*padding: 1em 1.4em 1em 1.4em;*/
 }
 ion-icon {
@@ -28,6 +27,10 @@ ion-icon {
 }
 .badge{
   font-size: 100%;
+}
+
+.card a{
+  margin: .2em;
 }
 .card{
   /*font-size: 100%;*/
