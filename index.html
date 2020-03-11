@@ -15,6 +15,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap"
     rel="stylesheet">
+    
 
   <!-- Bootstrap CSS File -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,72 +46,112 @@
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2>> Hello, I'm Tyler LeDuc</h2>
-              <div class="container">
-                <div class="row">
-                  <div class="col-md">
-                    UI/UX Designer with a passion for designing clean and functional user experiences.
-                    <br>&amp;<br>
-                    a Software Developer with a focus on writing efficient code for useful projects.
-                  </div>
-                </div>
+              <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-4">Hello, I'm Tyler LeDuc!</h1>
+                <hr class="my-4">
+                <p class="lead">
+                  I am:
+                </p>
+                <ul>
+                  <li>A UI/UX Designer with a passion for designing clean and functional user experiences.<br></li>
+                <li>A Software Developer with a focus on writing efficient code for useful projects.</li>
+              </p>
               </div>
           </div>
           <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Web</a>
-              <a href="#" data-filter=".coding">Coding Projects</a>
-<!--               <a href="#" data-filter=".branding">Branding</a>
-              <a href="#" data-filter=".photography">Photography</a> -->
+              <a class="btn btn-outline-primary" href="resume.html" role="button" data-filter="*">All</a>
+              <a class="btn btn-outline-primary" href="resume.html" role="button" data-filter=".web">Web</a>
+              <a class="btn btn-outline-primary" href="resume.html" role="button" data-filter=".coding">Coding</a>
             </div>
           </div>
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="item web">
-            <a href="ESOC/ESOC-index.html" class="item-wrap fancybox">
-              <div class="work-info">
-<!--                 <h3>Green Social Media</h3>
- -->                <span>Web</span>
-              </div>
-              <img class="img-fluid" src="img/ESOC-Logo.png">
-            </a>
+            <div class="card">
+              <h5 class="card-header">ESOC Project</h5>
+                <div class="card-body">
+                  <p class="card-text">Portfolio website I built to showcase my side projects and resume.<br>
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                  <span class="badge badge-secondary">JavaScript</span>
+                  <span class="badge badge-secondary">Sass</span>
+                </p>
+                  <a href="ESOC/ESOC-index.html" class="btn btn-primary">  Live Demo
+                    <ion-icon name="exit-outline"></ion-icon>
+                  </a>
+                  <a href="https://github.com/TLeD8/tylerleduc-site" class="btn btn-primary">   GitHub 
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+            </div>
           </div>
           <div class="item web">
-            <a href="https://github.com/TLeD8/tylerleduc-site" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>This site!</h3>
-                <span>Web</span>
-              </div>
-              <img class="img-fluid" src="img/code-site.png">
-            </a>
+            <div class="card">
+              <h5 class="card-header">tylerleduc.com</h5>
+                <div class="card-body">
+                  <p class="card-text">Portfolio website I built to showcase my side projects and resume.<br>
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                  <span class="badge badge-secondary">JavaScript</span>
+                  <span class="badge badge-secondary">Bootstrap</span>
+
+                </p>
+                  <a href="#" class="btn btn-primary">  Live Demo
+                    <ion-icon name="exit-outline"></ion-icon>
+                  </a>
+                  <a href="https://github.com/TLeD8/tylerleduc-site" class="btn btn-primary">   GitHub 
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+            </div>
           </div>
-          <div class="item coding col-sm-6">
-            <a href="https://github.com/TLeD8/puzzlePlatformer" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Puzzle Platformer</h3>
-                <span>Coding Project</span>
-              </div>
-              <img class="img-fluid" src="img/git-icon.png">
-            </a>
+          <div class="item coding">
+            <div class="card">
+              <h5 class="card-header">Puzzle Platformer</h5>
+                <div class="card-body">
+                  <p class="card-text">Java Multiplayer game where you control a character and solve complex puzzles in 6 different levels with 1 other person. Developed in a team using Agile, MVC design and GitHub.<br>
+                  <span class="badge badge-secondary">Java</span>
+                  <span class="badge badge-secondary">MVC</span>
+                  <span class="badge badge-secondary">Git</span>
+                  <span class="badge badge-secondary">Agile</span>
+                </p>
+                  <a href="https://github.com/TLeD8/tylerleduc-site" class="btn btn-primary">    GitHub 
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+            </div>
           </div>
-          <div class="item coding col-sm-6">
-            <a href="https://github.com/TLeD8/Auto-checkout-tool" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Sneaker Bot</h3>
-                <span>Coding Project</span>
-              </div>
-              <img class="img-fluid" src="img/git-icon.png">
-            </a>
+          <div class="item coding">
+            <div class="card">
+              <h5 class="card-header">Sneaker Bot</h5>
+                <div class="card-body">
+                  <p class="card-text">A Python script that automates the steps for buying products on the Adidas website. Successfully used to make a profit buying and
+                  selling limited-availability sneakers.<br>
+                  <span class="badge badge-secondary">Python</span>
+                  <span class="badge badge-secondary">Selenium</span>
+                </p>
+                  <a href="https://github.com/TLeD8/tylerleduc-site" class="btn btn-primary">    GitHub 
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+            </div>
           </div>
-          <div class="item coding col-sm-6">
-            <a href="https://github.com/TLeD8/network-connect4" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Network Connect 4</h3>
-                <span>Coding Project</span>
-              </div>
-              <img class="img-fluid" src="img/git-icon.png">
-            </a>
+          <div class="item coding">
+            <div class="card">
+              <h5 class="card-header">Networked Connect-4</h5>
+                <div class="card-body">
+                  <p class="card-text">Connect-4 game played on a server that connects two clients to play against each other. Server creation and joining is handled on a javafx GUI.<br>
+                  <span class="badge badge-secondary">Java</span>
+                  <span class="badge badge-secondary">Threading</span>
+                  <span class="badge badge-secondary">UI</span>
+                  <span class="badge badge-secondary">MVC</span>
+                </p>
+                  <a href="https://github.com/TLeD8/tylerleduc-site" class="btn btn-primary">    GitHub 
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -140,9 +181,11 @@
   <script src="vendor/isotope/isotope.pkgd.min.js"></script>
   <script src="vendor/aos/aos.js"></script>
   <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-
+  <!-- Ionic Framework -->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+
 
 </body>
 

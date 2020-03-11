@@ -11,6 +11,26 @@
   border-color: #007bff;
   /*padding: 1em 1.4em 1em 1.4em;*/
 }
+ion-icon {
+  text-align: bottom;
+  font-size: 130%;
+  display: inline-block;
+  width: 100%;
+}
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.badge{
+  font-size: 100%;
+}
+.card{
+  /*font-size: 100%;*/
+}
+.filters{
+  font-size: 150%;
+}
 
 h2{
   padding-bottom: .5em;
